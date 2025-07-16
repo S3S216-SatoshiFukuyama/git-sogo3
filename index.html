@@ -1,11 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>九州紹介 WEB サイト</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-image: url('kumamoto.jpg'); /* 熊本の風景画像を設定してください */
+            background-size: cover;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        ul {
+            list-style: none;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>九州紹介 WEB サイト</h1>
+    </header>
+    <nav>
+        <a href="fukuoka.html">福岡</a>
+        <a href="kumamoto.html">熊本</a>
+        <a href="saga.html">佐賀</a>
+        <a href="nagasaki.html">長崎</a>
+        <a href="oita.html">大分</a>
+        <a href="miyazaki.html">宮崎</a>
+        <a href="okinawa.html">沖縄</a>
+    </nav>
+    <div class="content">
+        <section>
+            <ul>
+                <li>
+                    <h2><a href="fukuoka.html">福岡県</a></h2>
+                    <p></p>
+                </li>
+                <li>
+                    <h2><a href="kumamoto.html">熊本県</a></h2>
+                    <p></p>
+                </li>
+                <li>
+                    <h2><a href="saga.html">佐賀県</a></h2>
+                    <p></p>
+                </li>
+                <li>
+                    <h2><a href="nagasaki.html">長崎県</a></h2>
+                    <p></p>
+                </li>
+                <li>
+                    <h2><a href="oita.html">大分県</a></h2>
+                    <p></p>
+                </li>
+                <li>
+                    <h2><a href="miyazaki.html">宮崎県</a></h2>
+                    <p></p>
+                </li>
+                <li>
+                    <h2><a href="okinawa.html">沖縄県</a></h2>
+                    <p></p>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 KCS熊本観光協会</p>
+    </footer>
 </body>
 </html>
