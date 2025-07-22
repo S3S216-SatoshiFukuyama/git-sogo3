@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九州紹介 WEB サイト</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-image: url('kumamoto.jpg'); /* 熊本の風景画像を設定してください */
+            background-size: cover;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>沖縄県へようこそ</h1>
+    </header>
+    <nav>
+        <a href="top.html">トップ</a>
+        <a href="fukuoka.html">福岡</a>
+        <a href="kumamoto.html">熊本</a>
+        <a href="saga.html">佐賀</a>
+        <a href="nagasaki.html">長崎</a>
+        <a href="oita.html">大分</a>
+        <a href="miyazaki.html">宮崎</a>
+    </nav>
+    <div class="content">
+        <section id="restaurant">
+            <h2>おすすめの飲食店</h2>
+            <h2>古酒と琉球料理 うりずん</h2>
+            <img src="okinawa01.jpg">
+            <p style="font-size: 0.9em; color: gray; margin-top: 5px;">
+                画像出典：<a href="https://jp.hotels.com/go/japan/jp-best-okinawa-restaurants" target="_blank">Hotels.comより</a>
+            </p>
+            <p>那覇・栄町にある、創業1972年の老舗泡盛居酒屋。沖縄県内すべての酒造所の泡盛を揃え、古民家を活かした昭和レトロな雰囲気が魅力です。歴史ある甕クースが並び、泡盛文化を体感できます。</p>
+        </section>
+    </div>
+    <div class="content">
+        <section>
+            <h2>おすすめの観光地</h2>
+            <h2>沖縄美ら海水族館</h2>
+            <img src="okinawa02.jpg">
+            <p style="font-size: 0.9em; color: gray; margin-top: 5px;">
+                画像出典：<a href="https://churaumi.okinawa/area/the-kuroshio/" target="_blank">沖縄美ら海水族館公式サイトより</a>
+            </p>
+            <p>沖縄・本部町の海洋博公園内にある、日本を代表する大型水族館です。幅35 m×高さ10 m、約750万リットルの巨大水槽で、ジンベエザメやナンヨウマンタが悠々と泳ぐ姿は圧巻！ジンベエザメの“ジンタ”は約8.8 m、世界最長の長期飼育記録を更新中です。</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 KCS熊本観光協会</p>
+    </footer>
+</body>
+</html>

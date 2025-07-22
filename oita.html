@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>大分県 | 九州へようこそ</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fcfcfc;
+      background-image: radial-gradient(#f7ff86 10%, transparent 20%), radial-gradient(#f7ff86 10%, transparent 20%);
+      background-position: 0 0, 20px 20px;
+      background-size: 40px 40px;
+    }
+    header {
+      background-color: #f4f4f9;
+      color: black;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .spot {
+      background-color: white;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .spot img {
+      display: block;
+      margin: 20px auto;
+      width: 50%;
+      height: auto;
+      border: 8px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .spot-content {
+      padding: 15px;
+    }
+    .spot-content h2 {
+      margin-top: 0;
+      font-size: 1.8em;
+    }
+    .spot-content p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>九州紹介 Webサイト</h1>
+  </header>
+  <nav>
+    <a href="index.html">トップページ</a>
+    <a href="fukuoka.html">福岡</a>
+    <a href="kumamoto.html">熊本</a>
+    <a href="saga.html">佐賀</a>
+    <a href="nagasaki.html">長崎</a>
+    <a href="miyazaki.html">宮崎</a>
+    <a href="okinawa.html">沖縄</a>
+  </nav>
+  <div class="container">
+
+    <div class="spot">
+      <img src="beppu.webp" alt="別府温泉">
+      <div class="spot-content">
+        <h2>別府温泉</h2>
+        <p>日本を代表する温泉地、別府。源泉数・湧出量ともに日本一を誇り、街全体が湯けむりに包まれています。
+        地獄めぐりや砂湯、泥湯など多彩な温泉体験ができることでも有名です。<br>
+        写真協力：大分県観光情報公式サイト
+        </p>
+      </div>
+    </div>
+
+    <div class="spot">
+      <img src="yufuin.webp" alt="由布院温泉">
+      <div class="spot-content">
+        <h2>由布院</h2>
+        <p>由布岳のふもとに広がる風情ある温泉街で、女性やカップルに人気。おしゃれなカフェやギャラリーも点在し、
+        街歩きが楽しい場所です。金鱗湖や朝霧の景色も魅力的です。<br>
+        写真協力：由布市観光協会
+        </p>
+      </div>
+    </div>
+
+    <div class="spot">
+        <img src="umitamago.jpg" alt="うみたまご">
+        <div class="spot-content">
+          <h2>うみたまご</h2>
+          <p>大分市にある人気の水族館「うみたまご」は、海の生き物とふれあえる体験型施設として家族連れに人気。
+          イルカやアザラシのショー、タッチプールなど見どころ満載です。<br>
+          写真協力：うみたまご
+          </p>
+        </div>
+      </div>
+  
+      <div class="spot">
+        <img src="takachiho.jpg" alt="高崎山自然動物園">
+        <div class="spot-content">
+          <h2>高崎山自然動物園</h2>
+          <p>野生のニホンザルが群れで暮らす動物園として知られ、間近で猿の生態を観察できます。
+          うみたまごと隣接しているのでセットでの観光もおすすめです。<br>
+          写真協力：高崎山自然動物園
+          </p>
+        </div>
+      </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 KCS九州観光協会</p>
+  </footer>
+</body>
+</html>

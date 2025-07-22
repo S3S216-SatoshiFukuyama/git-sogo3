@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九州へようこそ</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-image: url('kagoshima.jpg');
+            background-size: cover;
+            color: black;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .content {
+        padding: 20px;
+        text-align: center;
+        padding-bottom: 60px; /* フッターの高さ+余白分 */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>九州へようこそ</h1>
+    </header>
+    <nav>
+        <a href="fukuoka.html">福岡</a>
+        <a href="kumamoto.html">熊本</a>
+        <a href="saga.html">佐賀</a>
+        <a href="nagasaki.html">長崎</a>
+        <a href="oita.html">大分</a>
+        <a href="miyazaki.html">宮崎</a>
+        <a href="okinawa.html">沖縄</a>
+        <a href="index.html">TOP</a>
+    </nav>
+    <div class="content">
+        <section id="tourist">
+            <h2><a href="saga.html">佐賀</a></h2>
+            <h2><p>河太郎 呼子店</p></h2>
+            <h3><p>呼子のいか活造りで有名な、河太郎 呼子店
+            <br>オーダーが入ってから熟練の職人が手際よく調理する。これが『河太郎のいか活造り』の醍醐味です</p></h3>
+            <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;">
+                <div style="text-align: center;">
+                    <img src="ika.jpg" alt="ika" style="max-width: 200px; height: auto;">
+                </div>
+            </div>
+            <p style="font-size: 0.9em; margin-top: 5px;">
+                ※この画像はイメージです。
+           </p>
+            <h2><p>祐徳稲荷神社</p></h2>
+            <h3><p>日本三大稲荷の一つ
+            <br>豪華絢爛な社殿と山の斜面に建つ朱塗りの楼門は必見</p></h3>
+            <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;">
+                <div style="text-align: center;">
+                    <img src="zinja.jpg" alt="zinja" style="max-width: 200px; height: auto;">
+                </div>
+            </div>
+            <p style="font-size: 0.9em; margin-top: 5px;">
+                ※この画像はイメージです。
+           </p>                                
+    </div>
+    <footer>
+        <p>&copy; 九州</p>
+    </footer>
+</body>
+</html>

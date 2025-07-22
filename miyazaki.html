@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九州紹介 WEB サイト</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-image: url('kumamoto.jpg'); /* 熊本の風景画像を設定してください */
+            background-size: cover;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>宮崎県へようこそ</h1>
+    </header>
+    <nav>
+        <a href="top.html">トップ</a>
+        <a href="fukuoka.html">福岡</a>
+        <a href="kumamoto.html">熊本</a>
+        <a href="saga.html">佐賀</a>
+        <a href="nagasaki.html">長崎</a>
+        <a href="oita.html">大分</a>
+        <a href="okinawa.html">沖縄</a>
+    </nav>
+    <div class="content">
+        <section id="restaurant">
+            <h2>おすすめの飲食店</h2>
+            <h2>おぐら</h2>
+            <img src="miyazaki01.webp">
+            <p style="font-size: 0.9em; color: gray; margin-top: 5px;">
+                画像出典：<a href="https://retty.me/area/PRE45/ARE141/SUB14101/100000293630/24891423/" target="_blank">安藤 今日子さんの投稿より</a>
+            </p>
+            <p>宮崎市橘通東にある老舗の洋食店。1956年創業、チキン南蛮にタルタルソースを組み合わせたスタイルの発祥店として知られています。サクサク揚げた鶏肉に甘酢だれと自家製タルタルの相性は抜群。ハンバーグやカレーなど洋食メニューも豊富で、地元のファミリーや観光客から愛され続けています。</p>
+        </section>
+    </div>
+    <div class="content">
+        <section id="restaurant">
+            <h2>おすすめの観光地</h2>
+            <h2>大御神社</h2>
+            <img src="miyazaki02.jpg">
+            <p style="font-size: 0.9em; color: gray; margin-top: 5px;">
+                画像出典：<a href="https://ontrip.jal.co.jp/kyushu/17501751/p2#content-17501751-ahd4" target="_blank">JALが提案する観光ガイドより</a>
+            </p>
+            <p>宮崎県日向市にある「日向のお伊勢さま」と呼ばれる古社で、皇祖・天照大御神を祀ります。日向岬の付け根・伊勢ヶ浜にあり、背後に柱状節理が広がり、太平洋の大海原を望むダイナミックな景観が魅力です。</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 KCS熊本観光協会</p>
+    </footer>
+</body>
+</html>
